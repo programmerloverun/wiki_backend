@@ -1,0 +1,13 @@
+GET http://localhost:8080/hello
+Accept: application/json
+
+###
+
+GET http://localhost:3000/test
+Accept: application/json
+
+###demolist
+http://localhost:3000/demo/list
+
+### 分类列表
+GET http://localhost:3000/ebook/list?page=1&size=3
